@@ -1,0 +1,71 @@
+#ochotorena{
+	background-image: url("../practice/rafa.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	opacity: 1;
+
+}
+
+#name{
+	position: absolute;
+	bottom: 40%;
+	left: 20%;
+	font-family: 'Edwardian Script ITC', sans-serif;
+}
+
+#role{
+	position: absolute;
+	bottom: 36%;
+	left: 20%;
+	font-size: 120%;
+	font-family: 'Times New Roman', sans-serif;
+	text-align: center;
+}
+
+#email{
+	position: absolute;
+	bottom: 34%;
+	left: 20%;
+	font-size: 120%;
+	font-family: 'Times New Roman', sans-serif;
+}
+
+#content{
+	background-color: rgba(255,255,255, 0.3);
+	position: absolute;
+	top: 15%;
+	left: 17%;
+	height: auto;
+	min-height: 380px;
+	width: 65%;
+	z-index: -999;
+	padding: 15px;
+	font-family: 'Times New Roman', sans-serif;
+	box-shadow: 5px 5px 3px #000;
+}
+
+#desc{
+	
+	
+	height: 400px;
+	width: 600px;
+	color: #000;
+	position: absolute;
+	right: 5%;
+	top: 3%;
+	font-size: 135%;
+	text-align: justify;
+}
+
+#link{
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+	font-size: 100%;
+	text-align: right;
+}

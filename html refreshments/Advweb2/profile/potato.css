@@ -1,0 +1,40 @@
+body {
+	background-color: #ffaa80;
+}
+
+img {
+	border-radius: 100%;
+	margin-left: 100px;
+}
+
+#von_bio {
+	background-color: #ffccb3;
+	border-radius: 10px;
+	height: 30%;
+	width: 30%;
+	position: absolute;
+	top: 13.5%;
+	left: 50%;
+	text-align: center;
+	font-family: "Garamond", Georgia, Serif;
+	font-style: italic;
+}
+#content {
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	background-color: #ff884d;
+	margin-top: 8%;
+	margin-left: 15%;
+	width: 70%;
+	top: 50px;
+	height: auto;
+	padding: 10px;
+}
+
+#von_desc {
+	margin-top: 10px;
+	background-color: #ffccb3;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: "Garamond", Georgia, Serif;
+}

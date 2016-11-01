@@ -1,0 +1,33 @@
+#navbar
+{
+	height: 50px;
+}
+#navbar-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    top: 0;
+    width: 100%;
+	height: 100%;
+}
+
+#navbar-list {
+    float: right;
+}
+
+#navbar-list a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 190px;
+    text-decoration: none;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+}
+
+#navbar-list a:hover {
+	text-decoration:underline;
+	color: #02D61A;
+}
