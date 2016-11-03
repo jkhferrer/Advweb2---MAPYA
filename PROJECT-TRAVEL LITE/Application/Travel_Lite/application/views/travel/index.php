@@ -54,7 +54,7 @@
 			<li><span>3.</span>Organizing a Team bulding or family outing? we got you fam </li>
 			<li><span>4.</span>You can travel today! </li>
 			<div class="button">
-				<a href="travel/about" class="btn  btn-1c btn1 btn-1d">LEARN MORE</a>
+				<a href="http://localhost/Travel_Lite/index.php/about/view" class="btn  btn-1c btn1 btn-1d">LEARN MORE</a>
 			</div>
 		</div>
 	</div>
@@ -62,8 +62,21 @@
 		<h3>welcome</h3>
 		<h6>Travel Lite aims to provide an organized and systematic vacation planning to remove the hassle and to worry free about their trips for cheap service free.</h6>
 		<p>Our company offers a “one stop shop” for people who don’t have enough time in planning their vacation travels, for those who doesn’t have an idea on where to spend their free days and for those who wants to experience extremes and hardcore adventures. Just tell us what you want, we got that.</p>
+		  <div id="signup">
+ 		<a class="btn btn-large btn-info" href="http://localhost/Travel_Lite/index.php/user_authentication/new_user_registration">Sign up</a>
+	  </div>
+	  <div id="login">
+ 		<a class="btn btn-large btn-info" href="http://localhost/Travel_Lite/index.php/user_authentication/user_login_process">Login</a>
+	  </div>
 	</div>
+	
 	<div class="clearfix"> </div>
+        <style>
+        #signup{
+        	float :right;
+
+        }
+        </style>
 
 </div>
 <!-- welcome -->
@@ -117,13 +130,13 @@
 							<div class="col-md-4 vero-2">
 								<p>"This Website is a lifesaver!"</p>
 								<label> </label>
-								<h6>-Boogie Boydon</h6>
+								<h6>-Pablo Escobar</h6>
 
 							</div>
 							<div class="col-md-4 vero-3">
 								<p>"Team Mapya Rocks!"</p>
 								<label> </label>
-								<h6>Marlou</h6>
+								<h6>-Marlou</h6>
 
 		</section>
 		<!-- FlexSlider -->

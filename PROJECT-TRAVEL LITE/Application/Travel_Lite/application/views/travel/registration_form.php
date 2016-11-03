@@ -11,6 +11,37 @@ if (isset($this->session->userdata['logged_in'])) {
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans+Condensed:300|Raleway' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<style>
+  #main {display: block;
+ margin: auto;    
+    height:-1px;
+    width: 0%;
+}
+ #logo {
+    float:left;
+    clear:both;
+ }    
+ body {
+   background: rgba(226,242,248,1);
+background: -moz-linear-gradient(top, rgba(226,242,248,1) 0%, rgba(82,198,234,1) 81%, rgba(73,195,233,1) 86%, rgba(235,246,250,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,242,248,1)), color-stop(81%, rgba(82,198,234,1)), color-stop(86%, rgba(73,195,233,1)), color-stop(100%, rgba(235,246,250,1)));
+background: -webkit-linear-gradient(top, rgba(226,242,248,1) 0%, rgba(82,198,234,1) 81%, rgba(73,195,233,1) 86%, rgba(235,246,250,1) 100%);
+background: -o-linear-gradient(top, rgba(226,242,248,1) 0%, rgba(82,198,234,1) 81%, rgba(73,195,233,1) 86%, rgba(235,246,250,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,242,248,1) 0%, rgba(82,198,234,1) 81%, rgba(73,195,233,1) 86%, rgba(235,246,250,1) 100%);
+background: linear-gradient(to bottom, rgba(226,242,248,1) 0%, rgba(82,198,234,1) 81%, rgba(73,195,233,1) 86%, rgba(235,246,250,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2f2f8', endColorstr='#ebf6fa', GradientType=0 );
+overflow: hidden;
+ }
+ #h5{
+    color:black;
+ }
+
+</style>
+
+<div id="logo">
+<img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="550"  />
+
+</div>
 <div id="main">
     <div id="login">
         <h2>Registration Form</h2>
@@ -37,7 +68,7 @@ if (isset($this->session->userdata['logged_in'])) {
             'name' => 'email_value'
         );
         echo form_input($data);
-        echo"<br/>";
+        echo"<br/>"; 
         echo"<br/>";
         echo form_label('Password : ');
         echo"<br/>";
@@ -47,8 +78,9 @@ if (isset($this->session->userdata['logged_in'])) {
         echo form_submit('submit', 'Sign Up');
         echo form_close();
         ?>
-        <h5>Already have an account? <a href="http://localhost/Travel_Lite/index.php/user_authentication/user_login_process">Login</a></h5>
+        <h5>Already have an account? <a href="http://localhost/Travel_Lite/index.php/user_authentication/user_login_process" style="color:blue;">Login</a></h5>
     </div>
 </div>
+
 </body>
 </html>
