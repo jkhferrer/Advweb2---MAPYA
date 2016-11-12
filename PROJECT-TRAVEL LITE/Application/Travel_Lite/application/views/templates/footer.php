@@ -1,7 +1,7 @@
 <!-- footer -->
 	<div class="footer">
 		<div class="container">
-			<p>© 2016 All rights reserved | Design by Team Mapya</a></p>
+			<p>© 2016 All rights reserved | Design by Travel Lite</a></p>
 			<div class="social">
 				<ul>
 					<li><a href="#"><i class="fb"></i></a></li>
