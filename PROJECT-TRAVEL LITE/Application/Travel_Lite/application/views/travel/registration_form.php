@@ -8,7 +8,6 @@ if (isset($this->session->userdata['logged_in'])) {
 <head>
     <title>Registration Form</title>
     <link rel="stylesheet" type="text/css" href="http://localhost/Travel_Lite/assests/css/loginSignup.css">
-     <link rel="stylesheet" type="text/css" href="http://localhost/Travel_Lite/assests/css/bootstrap.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans+Condensed:300|Raleway' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -40,15 +39,8 @@ overflow: hidden;
 </style>
 
 <div id="logo">
-<<<<<<< HEAD
-   <img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="550"  />
-   <!--
-    <a href="<?php $this->load->helper('url'); echo base_url('index.php');?>">
-    //-->
-=======
     <a href="<?php $this->load->helper('url'); echo base_url('index.php');?>"><img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="550"  />
 
->>>>>>> 514ca1e6f7ce9fa3b5db3b334a31d9c943e5cef9
 </div>
 <div id="main">
     <div id="login">
@@ -87,7 +79,6 @@ overflow: hidden;
         echo form_close();
         ?>
         <h5>Already have an account? <a href="http://localhost/Travel_Lite/index.php/user_authentication/user_login_process" style="color:blue;">Login</a></h5>
-      
     </div>
 </div>
 
