@@ -47,7 +47,7 @@ if (isset($message_display)) {
         <input type="password" name="password" id="password" placeholder="**********"/><br/><br />
         <input type="submit" value=" Login " name="submit"/><br />
 
-        <h5>Don't have an account? <a href="http://localhost/Travel_Lite/index.php/user_authentication/new_user_registration">Sign up</a></h5>
+        <h5>Don't have an account? <a href="<?php echo base_url('travel-lite/index.php/user_authentication/new_user_registration');?>">Sign up</a></h5>
         <?php echo form_close(); ?>
     </div>
 </div>
