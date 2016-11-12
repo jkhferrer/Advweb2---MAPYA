@@ -30,17 +30,17 @@ $this->load->helper('url');
 
 								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/user_authentication/logout');?>" data-hover="LOGOUT">LOGOUT</a></li>
 
-								<?php
-								}
+								
+				                <?php
+				                }
+				                else
+				                {
+				                ?>
+				                <li><a href="<?php $this->load->helper('url'); echo base_url('index.php/user_authentication/user_login_process');?>" data-hover="LOG IN">LOG IN</a></li>
 
-								else
-								{
-								?>
-								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/user_authentication/user_login_process');?>" data-hover="LOG IN">LOG IN</a></li>
-				
-								<?php
-								}
-				?>
+				                <?php
+				                }
+				                ?>
 				</div>
 						<div class="clearfix"> </div>
 					<!-- script-for-nav -->
