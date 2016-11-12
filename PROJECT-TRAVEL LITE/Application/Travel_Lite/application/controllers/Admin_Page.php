@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Destination extends CI_Controller {
+class Admin_Page extends CI_Controller {
 	
-	public function view($page = 'destination')
+	 public function view($page = 'admin_page')
 	{
 		$this->load->helper('url');
 		if ( !file_exists('application/views/travel/'.$page.'.php'))
@@ -12,7 +12,7 @@ class Destination extends CI_Controller {
 			show_404();
 		}
 
-		$data['page'] = "Destination ";
+		$data['page'] = "Admin Page ";
 
 		$this->load->view('templates/header', $data);
 		$this->load->view('travel/'.$page);

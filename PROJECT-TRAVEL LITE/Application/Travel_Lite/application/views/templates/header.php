@@ -1,7 +1,10 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML>	
+<?php
+$this->load->helper('url');
+?>
 <html>
-<head>
-<title>Travel Lite | Home</title>
+<head>	
+<title>Travel Lite | <?php echo $page ?></title>
 <link href="<?php echo base_url(); ?>assests/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="<?php echo base_url(); ?>assests/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
