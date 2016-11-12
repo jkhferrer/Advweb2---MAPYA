@@ -1,3 +1,7 @@
+<?php
+$this->load->helper('url');
+?>
+
 <html>
 <?php
 if (isset($this->session->userdata['logged_in'])) {

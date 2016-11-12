@@ -1,3 +1,7 @@
+<?php
+$this->load->helper('url');
+?>
+
 <html>
 <?php
 if (isset($this->session->userdata['logged_in'])) {
@@ -73,11 +77,7 @@ overflow: hidden;
         <input type="password" name="password" id="password" placeholder="**********"/><br/><br />
         <input type="submit" value=" Login " name="submit"/><br />
 
-<<<<<<< HEAD
         <h5>Don't have an account? <a href="<?php echo base_url('travel-lite/index.php/user_authentication/new_user_registration');?>">Sign up</a></h5>
-=======
-        <h5>Don't have an account? <a href="http://localhost/Travel_Lite/index.php/user_authentication/new_user_registration" style="color:blue;">Sign up</a></h5>
->>>>>>> d80cef134e7e46717fbbca06919e94deee446f77
         <?php echo form_close(); ?>
     </div>
 </div>
