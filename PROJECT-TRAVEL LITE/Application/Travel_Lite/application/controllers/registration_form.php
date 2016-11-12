@@ -10,7 +10,7 @@ class registration_form extends CI_Controller {
 
     public function view($page = 'registration_form')
     {
-        $this->load->helper('url');
+       $this->load->helper('url');
         if ( !file_exists('application/views/travel/'.$page.'.php'))
         {
             // Whoops, we don't have a page for that!
