@@ -49,19 +49,19 @@
 		<img src="<?php echo base_url(); ?>assests/images/right.jpg" class="img-responsive" alt="" />
 		<div class="welcome-lefttop">
 			<h5>Why Travel Lite?</h5>
-			<li><span>1.</span>We offer One day trips </li>
-			<li><span>2.</span>We can get you to your destination! </li>
-			<li><span>3.</span>Organizing a Team bulding or family outing? we got you fam </li>
-			<li><span>4.</span>You can travel today! </li>
+			<li><span>1.</span>We offer one way trips and round trips. </li>
+						<li><span>2.</span>We assure that you'll arrive to your destination! </li>
+						<li><span>3.</span>Organizing a Team bulding or family outing? We got you covered. </li>
+						<li><span>4.</span>Go travel today! </li>
 			<div class="button">
 				<a href="http://localhost/Travel_Lite/index.php/about/view" class="btn  btn-1c btn1 btn-1d">LEARN MORE</a>
 			</div>
 		</div>
 	</div>
 	<div class="col-md-6 welcome-right">
-		<h3>welcome</h3>
-		<h6>Travel Lite aims to provide an organized and systematic vacation planning to remove the hassle and to worry free about their trips for cheap service free.</h6>
-		<p>Our company offers a “one stop shop” for people who don’t have enough time in planning their vacation travels, for those who doesn’t have an idea on where to spend their free days and for those who wants to experience extremes and hardcore adventures. Just tell us what you want, we got that.</p>
+		<<h3>welcome</h3>
+				<h6>Travel Lite aims to provide an organized and systematic vacation planning to remove the hassle in booking and be worry free on their trips with affordable services.</h6>
+				<p>Our company offers a “one stop shop” for people who don’t have enough time in planning their vacation travels, for those who doesn’t have an idea on where to spend their free days and for those who wants to experience extremes and hardcore adventures. Just tell us what you want, you're in safe hands.</p>
 		  <div id="signup">
  		<a class="btn btn-large btn-info" href="http://localhost/Travel_Lite/index.php/user_authentication/new_user_registration">Sign up</a>
 	  </div>
@@ -83,11 +83,11 @@
 <!-- hand -->
 <div class="hand">
 	<div class="container">
-		<h2>On the other hand, we got you fam </h2>
+		<h2>Travels and Trips are much easier with Travel Lite  </h2>
 		<div class="col-md-3 flights">
 			<i class="fligh"> </i>
 			<h4 class="hcol"> Destination</h4>
-			<p class="pcol">Your destination is our command.<br>
+			<p class="pcol">Where do you want to go?<br>
 
 
 			</p>
@@ -101,7 +101,7 @@
 		<div class="col-md-3 beech">
 			<i class="beec"> </i>
 			<h4>Bus</h4>
-			<p> Perhaps you require a shuttle bus or school bus to take people around? Travel Lite is proud to now offer bus rentals!</p>
+			<p> Perhaps you require a shuttle bus or school bus to take people around? Travel Lite also offer bus rentals!</p>
 		</div>
 		<div class="col-md-3 cars">
 			<i class="ca"> </i>
