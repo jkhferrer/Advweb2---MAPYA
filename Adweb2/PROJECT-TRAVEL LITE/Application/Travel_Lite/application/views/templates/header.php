@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Travel Lite | Home</title>
+<title>Travel Lite</title>
 <link href="<?php echo base_url(); ?>assests/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="<?php echo base_url(); ?>assests/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?php echo base_url(); ?>assests/css/transaction.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Costamar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 

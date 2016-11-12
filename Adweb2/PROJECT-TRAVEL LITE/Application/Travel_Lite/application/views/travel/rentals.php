@@ -1,3 +1,8 @@
+
+<?php
+
+
+?>
 <!-- header -->
 <div class="banner-1">
 <div class="container">
@@ -30,15 +35,78 @@
 			</div>
   </div>
 <!-- header -->
-<div class="404">
+
+<!-- transaction -->
+<div class="transaction">
 <div class="container">
-			<!--start-plans-404page---->
-			<div class="error-page">
-				<p>Under Construction! :(</p>
-				<h3>404</h3>
-				<a href="index.html" class="btn  btn-1c">Go home</a>
-			</div>
-			<!--End-plans-404page---->
+	<div class="hover11 column">
+	<center><label>Choose your Vehicle: </label></center>
+		<div class="bus">
+			<figure><img src="<?php echo base_url(); ?>assests/images/bus.png" style="height:200px; width: 400px;"/></figure>
+				<input class="private" type="button" value="Private"/> 
+				<input class="public" type="button" value="Public"/> 
+		</div>
+		<div>
+			<figure><img src="<?php echo base_url(); ?>assests/images/van.png" style="height:200px; width: 350px;"/></figure>
+		</div><br/>
+		  <input type="submit" value="Submit"><br/><br/>
+		  </div>
+
+	<div class="location">	
+	<center><label>Choose your Destination: </label></center>
+		<form action="###">
+		<label>From: </label>
+			  <select name="from">
+				    <option value="placeholder" disabled selected>Departing From</option>
+				    <option value="manila">Manila</option>
+				    <option value="lucena">Lucena</option>
+				    <option value="ilocos">Ilocos</option>
+				    <option value="pampanga">Pampanga</option>
+			  </select> &nbsp;
+
+			  <label>To: </label>  
+			  	<select name="to">
+				  	<option value="placeholder" disabled selected >Arriving At</option>
+				    <option value="manila" >Manila</option>
+				    <option value="lucena" >Lucena</option>
+				    <option value="ilocos">Ilocos</option>
+				    <option value="pampanga">Pampanga</option>
+			  </select><br>
+
+			  <label>Time: </label>
+			  	<select name="time">
+				  	<option value="placeholder" disabled selected >Time</option>
+				    <option value="8AM" >8:00AM</option>
+				    <option value="1030AM" >10:30AM</option>
+				    <option value="1PM">1:00PM</option>
+				    <option value="3PM">3:00PM</option>
+			  </select><br>
+
+			  <label>Ticket Type: </label>
+			  	<select name="ticket">
+				  	<option value="placeholder" disabled selected >Ticket Type</option>
+				    <option value="oneway" >One Way</option>
+				    <option value="roundtrip" >Round Trip</option>
+			  </select>
+			  <br>
+			  <input type="submit" value="Back"> &nbsp;
+			  <input type="submit" value="Submit">
+			</form>
+			</div><br>
+
+			<div class="payment">
+			<form>
+				 <label>Payment: </label>
+			  	<select name="Payment">
+				  	<option value="placeholder" disabled selected >Payment Type</option>
+				    <option value="cash" >Cash</option>
+				    <option value="creditCard" >Credit Card</option>
+			  </select><br>
+			   <input type="submit" value="Confirm">
+			</form>
+
+
+		</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
