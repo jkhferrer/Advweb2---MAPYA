@@ -42,10 +42,14 @@ if (isset($message_display)) {
    
    </style>
 <div id="logo">
+<<<<<<< HEAD
    <img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="500"  />
     <!--
     <a href="<?php $this->load->helper('url'); echo base_url('index.php');?>">
     //-->
+=======
+    <a href="<?php $this->load->helper('url'); echo base_url('index.php');?>"><img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="500"  />
+>>>>>>> 514ca1e6f7ce9fa3b5db3b334a31d9c943e5cef9
 </div>
 
 <div id="main">

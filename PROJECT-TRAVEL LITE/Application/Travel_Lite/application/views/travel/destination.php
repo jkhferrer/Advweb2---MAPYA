@@ -55,6 +55,7 @@
                                     </ul>
                                   
                                 </div>
+<<<<<<< HEAD
                                  <div class="col-md-8  desti-middle">
      <h4>Gallery</h4>
         <div class="row img-thumbnails">
@@ -87,6 +88,77 @@
   
 </div>
 								   
+=======
+                                 <div class="col-md-4 desti-middle">
+                                 	<h4>Beach Vacations Near Manila</h4>
+                                 	<div class="box-left">
+                                    <div class="bot-img">
+                                    	<img src="<?php echo base_url(); ?>assests/images/pic6.jpg" class="img-responsive" alt=""/>
+                                    </div>
+                                      <div class="bot-desc">
+                                      	<p>Put description here. </p><br>
+                                      </div>
+                                   <div class="clearfix"> </div>
+                                    	</div>	
+                                  <div class="box-left">
+                                     <div class="bot-img">
+                                    	<img src="<?php echo base_url(); ?>assests/images/pic4.jpg" class="img-responsive" alt=""/>
+                                    </div>
+                                      <div class="bot-desc">
+                                      	<p>Put description here. </p>
+                                      </div>
+                                    <div class="clearfix"> </div>
+                                    </div>	
+                                    <div class="box-left">
+                                    <div class="bot-img">
+                                    	<img src="<?php echo base_url(); ?>assests/images/pic5.jpg" class="img-responsive" alt=""/>
+                                    </div>
+                                      <div class="bot-desc">
+                                      	<p>Put description here.</p>
+                                       </div>
+									   </div>
+                                   <div class="clearfix"> </div>
+								      </div>
+								    <div class="col-md-4 desti-right">
+                                 	<h4>Popular Destinations</h4>
+                                 	<p>Put description here.</p>
+                                 	<div class="desti-text">
+                                 		<ul class="list1">
+                                            <li><a href="#">adipiscing hotels</a></li>
+                                            <li><a href="#"> tincidunt ut hotels</a></li>
+                                            <li><a href="#">vulputate velit hotels</a></li>
+                                            <li><a href="#">molestie hotels</a></li>
+                                            <li><a href="#">luptatum hotels</a></li>
+                                            <li><a href="#">claritatem hotels</a></li>
+                                            <li><a href="#">decima hotels</a></li>
+                                            <li><a href="#">decima hotels</a></li>
+                                            <li><a href="#">Investigationes hotels</a></li>
+                                             <li><a href="#">claritatem hotels</a></li>
+                                            <li><a href="#">decima hotels</a></li>
+                                            <li><a href="#">decima hotels</a></li>
+                                            <li><a href="#">Investigationes hotels</a></li>
+                                        </ul>
+                                 	</div>
+                                 	<div class="desti-text">
+                                 		<ul class="list1">
+                                            <li><a href="#">claritatem hotels</a></li>
+                                            <li><a href="#">decima hotels</a></li>
+                                            <li><a href="#">decima hotels</a></li>
+                                            <li><a href="#">Investigationes hotels</a></li>
+                                           	<li><a href="#">adipiscing hotels</a></li>
+                                            <li><a href="#"> tincidunt ut hotels</a></li>
+                                            <li><a href="#">vulputate velit hotels</a></li>
+                                            <li><a href="#">molestie hotels</a></li>
+                                            <li><a href="#">adipiscing hotels</a></li>
+                                            <li><a href="#"> tincidunt ut hotels</a></li>
+                                            <li><a href="#">vulputate velit hotels</a></li>
+                                            <li><a href="#">molestie hotels</a></li>
+                                            <li><a href="#">luptatum hotels</a></li>
+                                        </ul>
+                                 		
+                                 	</div>
+                              	</div>
+>>>>>>> 514ca1e6f7ce9fa3b5db3b334a31d9c943e5cef9
                               <div class="clearfix"> </div>
                               </div>  
                              <div class="clearfix"> </div>
