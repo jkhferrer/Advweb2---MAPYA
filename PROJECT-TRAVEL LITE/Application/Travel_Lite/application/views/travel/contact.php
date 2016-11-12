@@ -6,12 +6,13 @@ $this->load->helper('url');
 <div class="container">
 	  <div class="header-1">
 				<div class="logo1">
-					<a href="/index.html"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300"class="img-responsive" alt="" /></a>
+					<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300"class="img-responsive" alt="" /></a>
 				</div>
 				<div class="head-nav">
 						<span class="menu"> </span>
 							<ul class="cl-effect-16">
 								<li><a href="<?php echo base_url('index.php');?>" data-hover="HOME">HOME</a></li>
+<<<<<<< HEAD
 								<li><a href="<?php echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
 								<li><a href="<?php echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
 								<li><a href="<?php echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
@@ -29,6 +30,12 @@ $this->load->helper('url');
 								<?php
 								}
 								?>
+=======
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
+								<li class="active"><a href="<?php $this->load->helper('url'); echo base_url('index.php/contact/view');?>" data-hover="CONTACTS">CONTACTS</a></li>
+>>>>>>> 08d3b1c44b0723142d5b93b9b50cb9271a2d3de8
 									<div class="clearfix"> </div>
 							</ul>
 				</div>
@@ -59,9 +66,9 @@ $this->load->helper('url');
       				</div>
       			<div class="company_address">
 				     	<h3>Company Information :</h3>
-						    	<p>500 Lorem Ipsum Dolor Sit,</p>
-						   		<p>22-56-2-9 Sit Amet, Lorem,</p>
-						   		<p>USA</p>
+						    	<p>Unit 401, FFC Bldg.</p>
+						   		<p>Gen. Cailles St. Evangelista, Makati City</p>
+						   		<p>PH</p>
 				   		<p>Phone:(00) 222 666 444</p>
 				   		<p>Fax: (000) 000 00 00 0</p>
 				 	 	<p>Email: <span>info(at)mycompany.com</span></p>

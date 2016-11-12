@@ -7,12 +7,13 @@ $this->load->helper('url');
 <div class="container">
 	  <div class="header-1">
 				<div class="logo1">
-					<a href="/index.html"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
+					<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
 				</div>
 				<div class="head-nav">
 						<span class="menu"> </span>
 							<ul class="cl-effect-16">
 								<li><a href="<?php echo base_url('index.php');?>" data-hover="HOME">HOME</a></li>
+<<<<<<< HEAD
 								<li><a href="<?php echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
 								<li><a href="<?php echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
 								<li class="active"><a href="<?php echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
@@ -30,6 +31,12 @@ $this->load->helper('url');
                 <?php
                 }
                 ?>
+=======
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
+								<li class="active"><a href="<?php $this->load->helper('url'); echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/contact/view');?>" data-hover="CONTACTS">CONTACTS</a></li>
+>>>>>>> 08d3b1c44b0723142d5b93b9b50cb9271a2d3de8
 									<div class="clearfix"> </div>
 							</ul>
 				</div>
@@ -79,7 +86,7 @@ $this->load->helper('url');
                                     	<img src="<?php echo base_url(); ?>assests/images/pic6.jpg" class="img-responsive" alt=""/>
                                     </div>
                                       <div class="bot-desc">
-                                      	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p><br> 
+                                      	<p>Put description here. </p><br>
                                       </div>
                                    <div class="clearfix"> </div>
                                     	</div>	
@@ -88,7 +95,7 @@ $this->load->helper('url');
                                     	<img src="<?php echo base_url(); ?>assests/images/pic4.jpg" class="img-responsive" alt=""/>
                                     </div>
                                       <div class="bot-desc">
-                                      	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
+                                      	<p>Put description here. </p>
                                       </div>
                                     <div class="clearfix"> </div>
                                     </div>	
@@ -97,14 +104,14 @@ $this->load->helper('url');
                                     	<img src="<?php echo base_url(); ?>assests/images/pic5.jpg" class="img-responsive" alt=""/>
                                     </div>
                                       <div class="bot-desc">
-                                      	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
+                                      	<p>Put description here.</p>
                                        </div>
 									   </div>
                                    <div class="clearfix"> </div>
 								      </div>
 								    <div class="col-md-4 desti-right">
                                  	<h4>Popular Destinations</h4>
-                                 	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratteryui</p>
+                                 	<p>Put description here.</p>
                                  	<div class="desti-text">
                                  		<ul class="list1">
                                             <li><a href="#">adipiscing hotels</a></li>

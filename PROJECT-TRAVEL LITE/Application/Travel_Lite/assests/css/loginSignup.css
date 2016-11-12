@@ -1,8 +1,5 @@
-#main{
-    width:960px;
-    margin:50px auto;
-    font-family:raleway;
-}
+
+
 
 span{
     color:red;
@@ -25,6 +22,7 @@ h2{
     border: 2px solid #ccc;
     padding: 10px 40px 25px;
     margin-top: 70px;
+    color: #000000;
 }
 
 input[type=text],input[type=password], input[type=email]{
@@ -59,7 +57,7 @@ input[type=submit]{
 #logout{
     float:right;
     padding:5px;
-    border:dashed 1px gray;
+    border:dashed 1px black;
     margin-top: -168px;
 }
 

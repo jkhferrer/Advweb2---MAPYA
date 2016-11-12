@@ -18,7 +18,7 @@ $this->load->helper('url');
 	</div>
 	<div class="header">
 		<div class="logo">
-			<a href="/index.php"><img src="<?php echo base_url(); ?>assests/images/lite.png" class="img-responsive" alt="" /></a>
+			<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" class="img-responsive" alt="" /></a>
 		</div>
 		<div class="head-nav">
 			<span class="menu"> </span>

@@ -7,9 +7,10 @@ $this->load->helper('url');
 <div class="container">
 	  <div class="header-1">
 				<div class="logo1">
-					<a href="/index.html"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
+					<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
 				</div>
 				<div class="head-nav">
+<<<<<<< HEAD
 					<span class="menu"> </span>
 						<ul class="cl-effect-16">
 							<li><a href="<?php echo base_url('index.php/index/view');?>" data-hover="HOME">HOME</a></li>
@@ -30,6 +31,15 @@ $this->load->helper('url');
 								<?php
 								}
 								?>
+=======
+						<span class="menu"> </span>
+							<ul class="cl-effect-16">
+								<li><a href="<?php echo base_url('index.php');?>" data-hover="HOME">HOME</a></li>
+								<li class="active"><a href="<?php $this->load->helper('url'); echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/contact/view');?>" data-hover="CONTACTS">CONTACTS</a></li>
+>>>>>>> 08d3b1c44b0723142d5b93b9b50cb9271a2d3de8
 									<div class="clearfix"> </div>
 							</ul>
 				</div>
@@ -53,7 +63,7 @@ $this->load->helper('url');
 				<div class="col-md-4 about-topgrid1">
 										<h3>Who We Are</h3>
 										<img src="<?php echo base_url(); ?>assests/images/01.jpg"  class="img-responsive" title="name">
-										<p>Team Mapya!</p>
+										<p>Travel Lite</p>
 										<p>These individuals are all students from Asia Pacific College who loves spending their idle time going to vacations. They all experience all the hassles and problems in planning a trip for their families or with their barkadas and that’s where gentlemen came up with the idea.</p>
 									</div>
 					<div class="col-md-4 about-histore">
@@ -61,35 +71,35 @@ $this->load->helper('url');
 									<div class="historey-lines">
 										<ul>
 											<li><span>2010 &nbsp;-</span></li>
-											<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p></li>
+											<li><p></p></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
 									<div class="historey-lines">
 										<ul>
 											<li><span>2010 &nbsp;-</span></li>
-											<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p></li>
+											<li><p></p></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
 									<div class="historey-lines">
 										<ul>
 											<li><span>2010 &nbsp;-</span></li>
-											<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p></li>
+											<li><p></p></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
 									<div class="historey-lines">
 										<ul>
 											<li><span>2010 &nbsp;-</span></li>
-											<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p></li>
+											<li><p></p></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
 									<div class="historey-lines">
 										<ul>
 											<li><span>2010 &nbsp;-</span></li>
-											<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p></li>
+											<li><p></p></li>
 											<div class="clear"> </div>
 										</ul>
 									</div>
@@ -97,15 +107,15 @@ $this->load->helper('url');
 								</div>
 					<div class="col-md-4 about-services">
 									<h3>our services</h3>
-									<h4>LOREM IPM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. PRAESENT VESTIBULUM.</h4>
-									<p>Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Morbi nunc odio, gida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros.</p>
+									<h4>Put description here</h4>
+									<p>.</p>
 									<ul>
-										<li><a href="#">consectetur adipisicing elit</a></li>
-										<li><a href="#">sed do eiusmod tempor incididunt</a></li>
-										<li><a href="#">labore et dolore magna aliqua.</a></li>
-										<li><a href="#">sed do eiusmod tempor</a></li>
-										<li><a href="#">abore et dolore magna</a></li>
-										<li><a href="#">incididunt ut labore et dolore</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
 										<div class="clearfix"> </div>
 									</ul>
 								</div>
