@@ -33,8 +33,19 @@ $this->load->helper('url');
 				if (isset($this->session->userdata['logged_in']))
 				{
 
-				?>
+				?>								
+
+				<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/admin_page/view');?>" data-hover="PROFILE">PROFILE</a></li>
+
 				<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/user_authentication/logout');?>" data-hover="LOGOUT">LOGOUT</a></li>
+				<?php
+				}
+				else
+				{
+				?>
+
+				<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/user_authentication/user_login_process');?>" data-hover="LOG IN">LOG IN</a></li>
+				
 				<?php
 				}
 				?>
@@ -54,6 +65,7 @@ $this->load->helper('url');
 	</div>
 </div>
 
+<!-- header -->
 
 <!-- welcome -->
 <div class="welcome">

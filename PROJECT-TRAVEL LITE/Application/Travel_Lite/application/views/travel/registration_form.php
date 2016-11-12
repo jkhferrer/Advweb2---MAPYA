@@ -43,7 +43,7 @@ overflow: hidden;
 </style>
 
 <div id="logo">
-    <a href="<?php $this->load->helper('url'); echo base_url('index.php');?>"><img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="550"  />
+    <a href="<?php $this->load->helper('url'); echo base_url('index.php');?>"><img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="550"  /></a>
 
 </div>
 <div id="main">

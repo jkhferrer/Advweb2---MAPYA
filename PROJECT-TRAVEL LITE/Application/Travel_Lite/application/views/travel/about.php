@@ -10,7 +10,7 @@ $this->load->helper('url');
 					<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
 				</div>
 				<div class="head-nav">
-<<<<<<< HEAD
+
 					<span class="menu"> </span>
 						<ul class="cl-effect-16">
 							<li><a href="<?php echo base_url('index.php/index/view');?>" data-hover="HOME">HOME</a></li>
@@ -26,22 +26,21 @@ $this->load->helper('url');
 
 								?>
 
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/admin_page/view');?>" data-hover="PROFILE">PROFILE</a></li>
+
 								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/user_authentication/logout');?>" data-hover="LOGOUT">LOGOUT</a></li>
 
 								<?php
 								}
+
+								else
+								{
 								?>
-=======
-						<span class="menu"> </span>
-							<ul class="cl-effect-16">
-								<li><a href="<?php echo base_url('index.php');?>" data-hover="HOME">HOME</a></li>
-								<li class="active"><a href="<?php $this->load->helper('url'); echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
-								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
-								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
-								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/contact/view');?>" data-hover="CONTACTS">CONTACTS</a></li>
->>>>>>> 08d3b1c44b0723142d5b93b9b50cb9271a2d3de8
-									<div class="clearfix"> </div>
-							</ul>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/user_authentication/user_login_process');?>" data-hover="LOG IN">LOG IN</a></li>
+				
+								<?php
+								}
+				?>
 				</div>
 						<div class="clearfix"> </div>
 					<!-- script-for-nav -->
