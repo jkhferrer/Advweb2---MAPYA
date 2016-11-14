@@ -1,13 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 $this->load->helper('url');
 ?>
 
+=======
+>>>>>>> parent of a9ff68c... Revert "qwe"
 <!-- header -->
 <div class="banner-1">
 <div class="container">
 	  <div class="header-1">
 				<div class="logo1">
+<<<<<<< HEAD
 					<a href="/index.html"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
 				</div>
 				<div class="head-nav">
@@ -43,6 +47,20 @@ $this->load->helper('url');
 				                ?>
 								
 					<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
+=======
+					<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
+				</div>
+				<div class="head-nav">
+						<span class="menu"> </span>
+							<ul class="cl-effect-16">
+								<li><a href="<?php echo base_url('index.php');?>" data-hover="HOME">HOME</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
+								<li class="active"><a href="<?php $this->load->helper('url'); echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/contact/view');?>" data-hover="CONTACTS">CONTACTS</a></li>
+									<div class="clearfix"> </div>
+							</ul>
+>>>>>>> parent of a9ff68c... Revert "qwe"
 				</div>
 						<div class="clearfix"> </div>
 					<!-- script-for-nav -->
@@ -58,8 +76,11 @@ $this->load->helper('url');
 			</div>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- header -->
 =======
+=======
+>>>>>>> parent of a9ff68c... Revert "qwe"
 <!-- header -->
 <div class="404">
 <div class="container">
@@ -72,5 +93,9 @@ $this->load->helper('url');
 			<!--End-plans-404page---->
 			<div class="clearfix"> </div>
 		</div>
+<<<<<<< HEAD
 	</div>
 >>>>>>> a5d6da321f2693c9a3bc273f98c8fc8ebd03c4b9
+=======
+	</div>
+>>>>>>> parent of a9ff68c... Revert "qwe"

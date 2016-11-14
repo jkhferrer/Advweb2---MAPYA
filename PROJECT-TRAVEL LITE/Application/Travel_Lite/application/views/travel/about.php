@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 <?php
 $this->load->helper('url');
 ?>
+=======
+>>>>>>> parent of a9ff68c... Revert "qwe"
 
 <!-- header -->
 <div class="banner-1">
@@ -10,6 +13,7 @@ $this->load->helper('url');
 					<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
 				</div>
 				<div class="head-nav">
+<<<<<<< HEAD
 
 					<span class="menu"> </span>
 						<ul class="cl-effect-16">
@@ -41,6 +45,17 @@ $this->load->helper('url');
 				                <?php
 				                }
 				                ?>
+=======
+						<span class="menu"> </span>
+							<ul class="cl-effect-16">
+								<li><a href="<?php echo base_url('index.php');?>" data-hover="HOME">HOME</a></li>
+								<li class="active"><a href="<?php $this->load->helper('url'); echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/contact/view');?>" data-hover="CONTACTS">CONTACTS</a></li>
+									<div class="clearfix"> </div>
+							</ul>
+>>>>>>> parent of a9ff68c... Revert "qwe"
 				</div>
 						<div class="clearfix"> </div>
 					<!-- script-for-nav -->

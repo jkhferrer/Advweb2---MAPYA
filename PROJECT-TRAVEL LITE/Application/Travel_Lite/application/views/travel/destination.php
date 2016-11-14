@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 <?php
 $this->load->helper('url');
 ?>
 
+=======
+>>>>>>> parent of a9ff68c... Revert "qwe"
 <!-- header -->
 <div class="banner-1">
 <div class="container">
@@ -13,6 +16,7 @@ $this->load->helper('url');
 						<span class="menu"> </span>
 							<ul class="cl-effect-16">
 								<li><a href="<?php echo base_url('index.php');?>" data-hover="HOME">HOME</a></li>
+<<<<<<< HEAD
 								<li><a href="<?php echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
 								<li><a href="<?php echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
 								<li class="active"><a href="<?php echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
@@ -39,6 +43,14 @@ $this->load->helper('url');
                 <?php
                 }
                 ?>
+=======
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
+								<li class="active"><a href="<?php $this->load->helper('url'); echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
+								<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/contact/view');?>" data-hover="CONTACTS">CONTACTS</a></li>
+									<div class="clearfix"> </div>
+							</ul>
+>>>>>>> parent of a9ff68c... Revert "qwe"
 				</div>
 						<div class="clearfix"> </div>
 					<!-- script-for-nav -->
@@ -67,7 +79,11 @@ $this->load->helper('url');
                                     <h4>This Week's Top 10</h4>
                                     <ul class="list list-pad">
                                         <li class="list-bg"><span>1.</span><a href="#">BATANGAS ROAD TRIP</a></li>
+<<<<<<< HEAD
                                         <li class="list-bg1"><span>2.</span><a href="#">BALER, AURORA</a></li>
+=======
+                                        <li class="list-bg1"><span>2.</span><a href="#" target="2">BALER, AURORA</a></li>
+>>>>>>> parent of a9ff68c... Revert "qwe"
                                         <li class="list-bg"><span>3.</span><a href="#">PANGASINAN</a></li>
                                         <li class="list-bg1"><span>4.</span><a href="#">SAN ANTONIO, ZAMBALES</a></li>
                                         <li class="list-bg"><span>5.</span><a href="#">TAGAYTAY CITY</a></li>
@@ -77,6 +93,7 @@ $this->load->helper('url');
                                         <li class="list-bg"><span>9.</span><a href="#">KALINGA</a></li>
                                         <li class="list-bg1"><span>10.</span><a href="#"> SAGADA, MOUNTAIN PROVINCE</a></li>
                                     </ul>
+<<<<<<< HEAD
                                     <a href="#" class="link1">See all hotels</a>
                                 </div>
                                  <div class="col-md-4 desti-middle">
@@ -148,9 +165,54 @@ $this->load->helper('url');
                                  		
                                  	</div>
                               	</div>
+=======
+                                  
+                                </div>
+
+                                 <div class="col-md-8  desti-middle">
+     <h4>Gallery</h4>
+        <div class="row img-thumbnails">
+      <div class="col-md-6">
+          <a href="#">
+             <img src="http://localhost/Travel_Lite/assests/Gallery/Mayon1.jpg" class="img-thumbnail" width="1000"   />
+          </a>
+      </div>
+      <div class="col-md-6">
+          <a href="#">
+             <img src="http://localhost/Travel_Lite/assests/Gallery/apo1.jpg" class="img-thumbnail"   />
+          </a>
+      </div>
+      <div class="col-md-4">
+          <a href="#">
+              <img src="http://localhost/Travel_Lite/assests/Gallery/vigan1.jpg" class="img-thumbnail">
+          </a>
+      </div>
+      <div class="col-md-4">
+          <a href="#">
+              <img src="http://localhost/Travel_Lite/assests/Gallery/puerto2.jpg" class="img-thumbnail">
+          </a>
+      </div>
+      <div class="col-md-4">
+          <a href="#">
+              <img src="ttp://localhost/Travel_Lite/assests/Gallery/puerto3.jpg" class="img-thumbnail">
+          </a>
+      </div>
+  </div>
+  
+</div>
+								   
+
+>>>>>>> parent of a9ff68c... Revert "qwe"
                               <div class="clearfix"> </div>
                               </div>  
                              <div class="clearfix"> </div>
    </div>
 	</div>
+<<<<<<< HEAD
 	</div>
+=======
+	</div>
+  <scipt>
+
+  </scipt>
+>>>>>>> parent of a9ff68c... Revert "qwe"

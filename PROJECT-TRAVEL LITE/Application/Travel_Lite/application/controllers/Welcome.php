@@ -11,8 +11,12 @@ class Welcome extends CI_Controller {
                 // Whoops, we don't have a page for that!
                 show_404();
 			}
+<<<<<<< HEAD
 				$data['page'] = "Home";
 				$this->load->view('templates/header', $data);
+=======
+				$this->load->view('templates/header');
+>>>>>>> parent of a9ff68c... Revert "qwe"
 				$this->load->view('travel/'.$page);
 				$this->load->view('templates/footer');
 		}

@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 <?php
 $this->load->helper('url');
 ?>
+=======
+
+>>>>>>> parent of a9ff68c... Revert "qwe"
 <!-- header -->
 <div class="banner">
 	<div class="callbacks_container">
@@ -24,6 +28,7 @@ $this->load->helper('url');
 			<span class="menu"> </span>
 			<ul class="cl-effect-16">
 				<li class="active"><a href="<?php echo base_url('index.php');?>" data-hover="HOME">HOME</a></li>
+<<<<<<< HEAD
 				<li><a href="<?php echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
 				<li><a href="<?php echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
 				<li><a href="<?php echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
@@ -49,6 +54,12 @@ $this->load->helper('url');
                 <?php
                 }
                 ?>
+=======
+				<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/about/view');?>" data-hover="ABOUT">ABOUT</a></li>
+				<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/rentals/view');?>" data-hover="RENTALS">RENTALS</a></li>
+				<li><a href="<?php $this->load->helper('url');echo base_url('index.php/destination/view');?>" data-hover="DESTINATIONS">DESTINATIONS</a></li>
+				<li><a href="<?php $this->load->helper('url'); echo base_url('index.php/contact/view');?>" data-hover="CONTACTS">CONTACTS</a></li>
+>>>>>>> parent of a9ff68c... Revert "qwe"
 				<div class="clearfix"> </div>
 			</ul>
 		</div>
@@ -72,19 +83,32 @@ $this->load->helper('url');
 		<img src="<?php echo base_url(); ?>assests/images/right.jpg" class="img-responsive" alt="" />
 		<div class="welcome-lefttop">
 			<h5>Why Travel Lite?</h5>
+<<<<<<< HEAD
 			<li><span>1.</span>We offer One day trips </li>
 			<li><span>2.</span>We can get you to your destination! </li>
 			<li><span>3.</span>Organizing a Team bulding or family outing? we got you fam </li>
 			<li><span>4.</span>You can travel today! </li>
+=======
+			<li><span>1.</span>We offer one way trips and round trips. </li>
+						<li><span>2.</span>We assure that you'll arrive to your destination! </li>
+						<li><span>3.</span>Organizing a Team bulding or family outing? We got you covered. </li>
+						<li><span>4.</span>Go travel today! </li>
+>>>>>>> parent of a9ff68c... Revert "qwe"
 			<div class="button">
 				<a href="http://localhost/Travel_Lite/index.php/about/view" class="btn  btn-1c btn1 btn-1d">LEARN MORE</a>
 			</div>
 		</div>
 	</div>
 	<div class="col-md-6 welcome-right">
+<<<<<<< HEAD
 		<h3>welcome</h3>
 		<h6>Travel Lite aims to provide an organized and systematic vacation planning to remove the hassle and to worry free about their trips for cheap service free.</h6>
 		<p>Our company offers a “one stop shop” for people who don’t have enough time in planning their vacation travels, for those who doesn’t have an idea on where to spend their free days and for those who wants to experience extremes and hardcore adventures. Just tell us what you want, we got that.</p>
+=======
+		<<h3>welcome</h3>
+				<h6>Travel Lite aims to provide an organized and systematic vacation planning to remove the hassle in booking and be worry free on their trips with affordable services.</h6>
+				<p>Our company offers a “one stop shop” for people who don’t have enough time in planning their vacation travels, for those who doesn’t have an idea on where to spend their free days and for those who wants to experience extremes and hardcore adventures. Just tell us what you want, you're in safe hands.</p>
+>>>>>>> parent of a9ff68c... Revert "qwe"
 		  <div id="signup">
  		<a class="btn btn-large btn-info" href="http://localhost/Travel_Lite/index.php/user_authentication/new_user_registration">Sign up</a>
 	  </div>
@@ -106,11 +130,19 @@ $this->load->helper('url');
 <!-- hand -->
 <div class="hand">
 	<div class="container">
+<<<<<<< HEAD
 		<h2>On the other hand, we got you fam </h2>
 		<div class="col-md-3 flights">
 			<i class="fligh"> </i>
 			<h4 class="hcol"> Destination</h4>
 			<p class="pcol">Your destination is our command.<br>
+=======
+		<h2>Travels and Trips are much easier with Travel Lite  </h2>
+		<div class="col-md-3 flights">
+			<i class="fligh"> </i>
+			<h4 class="hcol"> Destination</h4>
+			<p class="pcol">Where do you want to go?<br>
+>>>>>>> parent of a9ff68c... Revert "qwe"
 
 
 			</p>
@@ -124,7 +156,11 @@ $this->load->helper('url');
 		<div class="col-md-3 beech">
 			<i class="beec"> </i>
 			<h4>Bus</h4>
+<<<<<<< HEAD
 			<p> Perhaps you require a shuttle bus or school bus to take people around? Travel Lite is proud to now offer bus rentals!</p>
+=======
+			<p> Perhaps you require a shuttle bus or school bus to take people around? Travel Lite also offer bus rentals!</p>
+>>>>>>> parent of a9ff68c... Revert "qwe"
 		</div>
 		<div class="col-md-3 cars">
 			<i class="ca"> </i>
