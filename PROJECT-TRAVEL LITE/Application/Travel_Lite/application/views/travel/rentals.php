@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 $this->load->helper('url');
 ?>
@@ -57,9 +56,7 @@ $this->load->helper('url');
 			</div>
 			</div>
   </div>
-<<<<<<< HEAD
 <!-- header -->
-=======
 <!-- header -->
 <div class="404">
 <div class="container">
@@ -73,4 +70,3 @@ $this->load->helper('url');
 			<div class="clearfix"> </div>
 		</div>
 	</div>
->>>>>>> a5d6da321f2693c9a3bc273f98c8fc8ebd03c4b9
