@@ -50,24 +50,6 @@ class user_authentication extends CI_Controller
         $this->form_validation->set_rules('username', 'Username', 'trim|required|xss_clean');
         $this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean');
 
-<<<<<<< HEAD
-        if($this->form_validation->run() == FALSE)
-        {
-            if(isset($this->session->userdata['logged_in']))
-            {
-                $this->load->view('travel/index');
-            }
-
-            else
-            {
-                $this->load->view('travel/login_form');
-            }
-
-        }
-
-        else
-        {
-=======
         if($this->form_validation->run() == FALSE){
             if(isset($this->session->userdata['logged_in'])){
                 $this->load->view('travel/admin_page');
@@ -75,7 +57,6 @@ class user_authentication extends CI_Controller
                 $this->load->view('travel/login_form');
             }
         }else{
->>>>>>> parent of a9ff68c... Revert "qwe"
             $data = array(
                 'username' => $this->input->post('username'),
                 'password' => $this->input->post('password'));
@@ -93,19 +74,9 @@ class user_authentication extends CI_Controller
                     );
 
                     $this->session->set_userdata('logged_in', $session_data);
-<<<<<<< HEAD
-                    $this->load->view('templates/header');
-                    $this->load->view('travel/index');
-                    $this->load->view('templates/footer');
-                }
-
-            }else
-            {
-=======
                     $this->load->view('travel/admin_page');
                 }
             }else{
->>>>>>> parent of a9ff68c... Revert "qwe"
                 $data = array('error_message' => 'Invalid Username or Password');
                 $this->load->view('travel/login_form', $data);
             }
@@ -114,16 +85,8 @@ class user_authentication extends CI_Controller
 
     public function logout(){
         $sess_array = array('username' => '');
-<<<<<<< HEAD
-
-        $this->session->unset_userdata('logged_in', $sess_array);
-        $this->load->view('templates/header');
-        $this->load->view('travel/index');
-        $this->load->view('templates/footer');
-=======
         $this->session->unset_userdata('logged_in', $sess_array);
         $this->load->view('travel/login_form');
->>>>>>> parent of a9ff68c... Revert "qwe"
     }
 }
 ?>

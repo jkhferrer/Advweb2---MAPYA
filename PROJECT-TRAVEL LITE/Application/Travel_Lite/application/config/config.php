@@ -23,11 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-<<<<<<< HEAD
-$config['base_url'] = 'http://localhost/Travel_Lite/';
-=======
 $config['base_url'] = 'http://localhost/Travel_Lite';
->>>>>>> parent of a9ff68c... Revert "qwe"
 
 /*
 |--------------------------------------------------------------------------
