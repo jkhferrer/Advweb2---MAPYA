@@ -9,56 +9,7 @@
 <!-- header -->
 <div class="banner-1">
 <div class="container">
-<div class="row">
-      <!--Start First Column-->
-      <div class="col-md-4 no-image"><!--Delete the no-image class from your code, all css in this example is merely to beautify the results on this page, and is not required for the modal carousels to work-->
-          <!-- The size of your images determines the size of the modal, set them to whatever you like-->
-      <!--Note the data-toggle and data-target name-->
-        <a data-toggle="modal" data-keyboard="true" data-target=".firstModal" href="#myModal">1. Batangas City</a>
-      </div>
-      <div class="modal fade firstModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-        <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-          <div class="modal-content">
-            <div id="carousel-controls" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-              <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img class="img-responsive" src="http://placehold.it/1200x600/555/000&text=First-Slide" alt="...">
-                     <div class="carousel-caption">
-                         insert a caption for your images here, if you want
-                     </div>
-                  </div>
-                  <div class="item">
-                    <img class="img-responsive" src="http://placehold.it/1200x600/ffb8bb/000&text=Second-Slide" alt="...">
-                    
-                  </div>
-                  <div class="item">
-                    <img class="img-responsive" src="http://placehold.it/1200x600/ccc033/000&text=Third-Slide" alt="...">
-                   
-                  </div>
-                </div>
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-controls" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-controls" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-      
-      
-      <!--IMPORTANT: This should be a given, but just in case it helps: The number of modals you can fit in a row is limited by your column width. 
-      The above example will only allow 3 modals per row because our column width is set to 4, 4+4+4=12 so... no more than 3, if you wanted 4 modals, 
-      change the column width to 3, 3+3+3+3=12 (four modals!), Also this should be a given, but the included CSS is not manditory for any functionality, modals are
-      javascript based and their funtionality is included in bootstrap, unless you specifically exclude them. The carousel works because of jQuery, which you should
-      also already have-->
-      
-      
-    </div>
+
 	  <div class="header-1">
 				<div class="logo1">
 					<a href="<?php echo base_url('index.php');?>"><img src="<?php echo base_url(); ?>assests/images/lite.png" height="0" width="300" class="img-responsive" alt="" /></a>
@@ -85,7 +36,56 @@
 					</script>
 				<!-- script-for-nav -->
 			</div>
-			</div>
+       <div class="row">
+      <!--Start First Column-->
+      <div class="col-md-4 no-image"><!--Delete the no-image class from your code, all css in this example is merely to beautify the results on this page, and is not required for the modal carousels to work-->
+          <!-- The size of your images determines the size of the modal, set them to whatever you like-->
+      <!--Note the data-toggle and data-target name-->
+             </div>
+      <div class="modal fade firstModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
+        <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
+          <div class="modal-content">
+            <div id="carousel-controls" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
+              <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img class="img-responsive" src="<?php echo base_url(); ?>assests/Gallery/taal3.jpg" alt="...">
+                     <div class="carousel-caption">
+                         insert a caption for your images here, if you want
+                     </div>
+                  </div>
+                  <div class="item">
+                    <img class="img-responsive" src="<?php echo base_url(); ?>assests/Gallery/taal1.jpg" alt="...">
+                    
+                  </div>
+                  <div class="item">
+                    <img class="img-responsive" src="<?php echo base_url(); ?>assests/Gallery/taal2.jpg" alt="...">
+                   
+                  </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-controls" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-controls" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      
+      
+      <!--IMPORTANT: This should be a given, but just in case it helps: The number of modals you can fit in a row is limited by your column width. 
+      The above example will only allow 3 modals per row because our column width is set to 4, 4+4+4=12 so... no more than 3, if you wanted 4 modals, 
+      change the column width to 3, 3+3+3+3=12 (four modals!), Also this should be a given, but the included CSS is not manditory for any functionality, modals are
+      javascript based and their funtionality is included in bootstrap, unless you specifically exclude them. The carousel works because of jQuery, which you should
+      also already have-->
+      
+      
+    </div> <!--End Row-->
+      			</div>
   </div>
 <!-- header -->
 <!-- destination -->	
