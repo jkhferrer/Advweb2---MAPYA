@@ -1,3 +1,7 @@
+<?php
+$this->load->helper('url');
+?>
+
 <html>
 <?php
 if (isset($this->session->userdata['logged_in'])) {
@@ -8,7 +12,6 @@ if (isset($this->session->userdata['logged_in'])) {
 <head>
     <title>Login Form</title>
     <link rel="stylesheet" type="text/css" href="http://localhost/Travel_Lite/assests/css/loginSignup.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost/Travel_Lite/assests/css/bootstrap.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans+Condensed:300|Raleway' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -33,13 +36,9 @@ if (isset($message_display)) {
  #logo {
     float:left;
     clear:both;
- }   
- #color{
-    color: black;
-    border-radius:0;
- } 
+ }    
  body {
-   background: rgba(226,242,248,1);
+     background: rgba(226,242,248,1);
 background: -moz-linear-gradient(top, rgba(226,242,248,1) 0%, rgba(82,198,234,1) 81%, rgba(73,195,233,1) 86%, rgba(235,246,250,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,242,248,1)), color-stop(81%, rgba(82,198,234,1)), color-stop(86%, rgba(73,195,233,1)), color-stop(100%, rgba(235,246,250,1)));
 background: -webkit-linear-gradient(top, rgba(226,242,248,1) 0%, rgba(82,198,234,1) 81%, rgba(73,195,233,1) 86%, rgba(235,246,250,1) 100%);
@@ -52,10 +51,7 @@ overflow: hidden;
    
    </style>
 <div id="logo">
-
-   <img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="500"  />
-
-
+    <a href="<?php $this->load->helper('url'); echo base_url('index.php');?>"><img src="http://localhost/Travel_Lite/assests/images/lite.png"  alt="" height="500" width="500"  /></a>
 </div>
 
 <div id="main">
@@ -80,15 +76,9 @@ overflow: hidden;
         <input type="password" name="password" id="password" placeholder="**********"/><br/><br />
         <input type="submit" value=" Login " name="submit"/><br />
 
-        <h5>Don't have an account? <a href="http://localhost/Travel_Lite/index.php/user_authentication/new_user_registration" style="color:blue;">Sign up</a></h5>
+        <h5>Don't have an account? <a href="<?php echo base_url('travel-lite/index.php/user_authentication/new_user_registration');?>">Sign up</a></h5>
         <?php echo form_close(); ?>
-        <a href="http://localhost/Travel_Lite/index.php" class="btn btn-info btn-lg">
-          <span class="glyphicon glyphicon-home"></span> Home
-        </a>
-       
     </div>
 </div>
-
- 
 </body>
 </html>

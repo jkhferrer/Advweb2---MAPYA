@@ -384,7 +384,6 @@ span {
 }
 .button{
 	margin-top:1.8em;
-
 }
 .welcome-right h3 {
 	text-align: center;
@@ -455,7 +454,6 @@ i.rest {
 	background: url(../images/icon.png)no-repeat -130px -6px;
 	display: inline-block;
 	vertical-align: middle;
-	font-family: 'Rubik', sans-serif;
 }
 i.beec {
 	width: 106px;
@@ -508,11 +506,7 @@ i.ca {
 }
 .button-1 {
 	padding-left: 36px;
-	text-align: left;	
-}
-.small-btn {
-    width: 20px;
-    height: 20px;
+	text-align: left;
 }
 .vero-3,.vero-2,.vero-1{
 	z-index:1;
